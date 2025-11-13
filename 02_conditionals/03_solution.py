@@ -2,6 +2,7 @@ score = int(input("Your score is : "))
 
 if score > 100:
     grade = "Wrong Score"
+    exit()
 elif score >= 90:
     grade = "A"
 elif score >=80:
