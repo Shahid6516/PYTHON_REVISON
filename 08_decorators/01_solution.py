@@ -9,6 +9,7 @@ def timer(func):
         return result
     return wrapper
 
+
 @timer
 
 def example_function(n):
